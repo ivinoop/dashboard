@@ -69,7 +69,7 @@ body {
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1140px;
   margin: 0 auto;
   width: 100%;
 }
@@ -107,6 +107,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.tac {
+  text-align: center;
+}
+
+.padding-y {
+  padding: 2rem 0;
 }
 
 .section-padding {
@@ -209,5 +217,113 @@ header .right-col button ion-icon {
 
 .search-and-filter .filter span {
   margin-left: 0.3rem;
+}
+
+.card-box {
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 500px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.3rem;
+}
+
+.card-box h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.card-box p {
+  color: #939292;
+  font-size: 0.9rem;
+}
+
+.card-box .card-header-icon {
+  background-color: #fdf8f9;
+  padding: 1px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-box ion-icon {
+  color: red;
+  font-size: 2rem;
+}
+
+.card-box .card-type-date {
+  margin: 0.7rem 0;
+}
+
+.card-box .card-type-date .card-category {
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #939292;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #939292;
+}
+
+.card-box .card-status-bar {
+  margin: 1rem 0;
+}
+
+.card-box .card-status-bar .spent-bar,
+.card-box .card-status-bar .available-bar {
+  height: 0.625rem;
+  outline: none;
+  border: none;
+}
+
+.card-box .card-status-bar .spent-bar {
+  background-color: #FF3266;
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+
+.card-box .card-status-bar .available-bar {
+  background-color: #008000;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.card-box .card-stats {
+  margin-top: 0.7rem;
+}
+
+.card-box .card-stats .spent-stats-bullet,
+.card-box .card-stats .available-stats-bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.card-box .card-stats .spent-stats-bullet {
+  background-color: #FF3266;
+}
+
+.card-box .card-stats .available-stats-bullet {
+  background-color: #008000;
+}
+
+.card-box .card-stats .spent-stats-left span,
+.card-box .card-stats .available-stats-left span {
+  color: #000;
+}
+
+.card-box .available-stats {
+  margin-top: 0.8rem;
+}
+
+.card-box .card-stats p {
+  color: #000;
+}
+
+.card-box .available-stats p {
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

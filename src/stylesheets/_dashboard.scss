@@ -80,3 +80,93 @@ header {
     }
   }
 }
+
+// Display Cards
+
+.card-box {
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.3rem;
+  & h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  & p {
+    color: $text-gray;
+    font-size: 0.9rem;
+  }
+  & .card-header-icon {
+    background-color: #fdf8f9;
+    padding: 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  & ion-icon {
+    color: red;
+    font-size: 2rem;
+  }
+  & .card-type-date {
+    margin: 0.7rem 0;
+    & .card-category {
+      padding: 0.2rem 0.5rem;
+      border: 1px solid $text-gray;
+      border-radius: 0.4rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      color: $text-gray;
+    }
+  }
+  & .card-status-bar {
+    margin: 1rem 0;
+    & .spent-bar,
+    .available-bar {
+      height: 0.625rem;
+      outline: none;
+      border: none;
+    }
+    & .spent-bar {
+      background-color: $primary-pink;
+      border-top-left-radius: 5rem;
+      border-bottom-left-radius: 5rem;
+    }
+    & .available-bar {
+      background-color: $status-bar-green;
+      border-top-right-radius: 5rem;
+      border-bottom-right-radius: 5rem;
+    }
+  }
+  & .card-stats {
+    margin-top: 0.7rem;
+    & .spent-stats-bullet,
+    & .available-stats-bullet {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-right: 0.5rem;
+    }
+    & .spent-stats-bullet {
+      background-color: $primary-pink;
+    }
+    & .available-stats-bullet {
+      background-color: $status-bar-green;
+    }
+    & .spent-stats-left span,
+    & .available-stats-left span {
+      color: #000;
+    }
+  }
+  & .available-stats {
+    margin-top: 0.8rem;
+  }
+  & .card-stats p {
+    color: #000;
+  }
+  & .available-stats p {
+    font-weight: 600;
+  }
+}
