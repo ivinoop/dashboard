@@ -1,0 +1,39 @@
+// Header
+
+header {
+  padding: 2rem 0;
+  & .left-col {
+    & h1 {
+      margin-right: 0.5rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    & .learn-more-btn {
+      background-color: #faf7f7;
+      padding: 0.4rem;
+      border-radius: 0.8rem;
+      color: #5555ff;
+      font-size: 0.7rem;
+      margin-left: 0.3rem;
+      & ion-icon {
+        font-size: 1.1rem;
+        margin-right: 0.3rem;
+      }
+    }
+  }
+  & .right-col {
+    & button {
+      padding: 0.4rem 0.8rem;
+      background-color: #fff;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 0.2rem;
+      font-size: 0.8rem;
+      font-family: inherit;
+      color: #000;
+      margin-right: 0.6rem;
+      & ion-icon {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

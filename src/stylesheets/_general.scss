@@ -1,0 +1,77 @@
+/* General */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+// .flex-80 {
+//   flex: 0 1 80%;
+// }
+
+// .flex-20 {
+//   flex: 0 1 20%;
+// }
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcr {
+  justify-content: right;
+}
+
+.jsb {
+  justify-content: space-between;
+}
+
+.aic {
+  align-items: center;
+}
+
+.section-padding {
+  padding: 2rem 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+.sort-btn {
+  background-color: #fff;
+  margin-right: 1.3rem;
+}
+
+.sort-btn-active {
+  border-bottom: 2px solid $primary-pink;
+  color: black !important;
+}
+
+a {
+  text-decoration: none;
+}

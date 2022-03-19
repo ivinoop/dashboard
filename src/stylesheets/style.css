@@ -1,0 +1,176 @@
+/* Resets */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* General */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.jcc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jcr {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.jsb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-padding {
+  padding: 2rem 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+.sort-btn {
+  background-color: #fff;
+  margin-right: 1.3rem;
+}
+
+.sort-btn-active {
+  border-bottom: 2px solid #FF3266;
+  color: black !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+header .left-col h1 {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+header .left-col .learn-more-btn {
+  background-color: #faf7f7;
+  padding: 0.4rem;
+  border-radius: 0.8rem;
+  color: #5555ff;
+  font-size: 0.7rem;
+  margin-left: 0.3rem;
+}
+
+header .left-col .learn-more-btn ion-icon {
+  font-size: 1.1rem;
+  margin-right: 0.3rem;
+}
+
+header .right-col button {
+  padding: 0.4rem 0.8rem;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  font-family: inherit;
+  color: #000;
+  margin-right: 0.6rem;
+}
+
+header .right-col button ion-icon {
+  margin-right: 0.5rem;
+}
+/*# sourceMappingURL=style.css.map */
