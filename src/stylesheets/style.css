@@ -173,4 +173,41 @@ header .right-col button {
 header .right-col button ion-icon {
   margin-right: 0.5rem;
 }
+
+.sort .sort-types {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.sort .sort-types .left-col button:nth-child(2) {
+  color: #000;
+}
+
+.sort .sort-types .left-col .sort-btn {
+  color: #939292;
+}
+
+.sort .sort-types .right-col .grid-display-btn {
+  margin-right: 0.8rem;
+  color: #939292;
+}
+
+.sort .sort-types .right-col .list-display-btn {
+  font-size: 1.3rem;
+}
+
+.search-and-filter .search {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.search-and-filter .filter {
+  background-color: #efeded;
+  padding: 0.4rem 0.8rem;
+  color: #2f2e2e;
+  border-radius: 0.3rem;
+}
+
+.search-and-filter .filter span {
+  margin-left: 0.3rem;
+}
 /*# sourceMappingURL=style.css.map */
