@@ -12,7 +12,6 @@ function App() {
       <Router>
         <Header />
         <Sort />
-        <Filter />
 
         <DisplayCards />
       </Router>
